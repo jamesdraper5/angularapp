@@ -1,0 +1,4 @@
+var budgetApp=angular.module("budgetApp",["ngRoute","phonecatControllers"]);budgetApp.config(["$routeProvider",function(e){e.when("/tables",{templateUrl:"partials/tableListing",controller:"PhoneListCtrl"}).when("/tables/:tableId",{templateUrl:"partials/phone-detail.html",controller:"PhoneDetailCtrl"}).otherwise({redirectTo:"/tables"})}]);
+var phonecatControllers=angular.module("phonecatControllers",[]);phonecatControllers.controller("PhoneListCtrl",["$scope","$http",function(o,t){t.get("api/tables").success(function(t){o.phones=t})}]),phonecatControllers.controller("PhoneDetailCtrl",["$scope","$routeParams",function(o,t){o.tableId=t.tableId}]);
+var test="helloeee";console.log("test123422445: "+test);
+var test="hi";console.log("test: "+test);

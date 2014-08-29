@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	h1 Table
+	p=title
+
+	table#data-table
+		thead
+			td Date
+			td Category
+			td Description
+			td Name
+			td Amount			
+		tbody
+			for entry in data
+				include entry
+			//include totals

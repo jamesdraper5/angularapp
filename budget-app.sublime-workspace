@@ -1,0 +1,1442 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tabl",
+				"tableSchema"
+			],
+			[
+				"table",
+				"tableEngine"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"s",
+				"separate"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"image",
+				"imagemin"
+			],
+			[
+				"Dat",
+				"DateInTheaters"
+			],
+			[
+				"isD",
+				"isDefined	fn. (cfscript)"
+			],
+			[
+				"max",
+				"maxLabelLength"
+			],
+			[
+				"slider",
+				"sliderHeight"
+			],
+			[
+				"middle",
+				"middlePos"
+			],
+			[
+				"img",
+				"imgWidths"
+			],
+			[
+				"right",
+				"rightPos"
+			],
+			[
+				"webki",
+				"webkit-filter"
+			],
+			[
+				"fa",
+				"fadeOnHover"
+			],
+			[
+				"blu",
+				"blurOnHover"
+			],
+			[
+				"ani",
+				"animating"
+			],
+			[
+				"next",
+				"nextIndex"
+			],
+			[
+				"sli",
+				"sliderWidth"
+			],
+			[
+				"left",
+				"leftPos"
+			],
+			[
+				"wi",
+				"widthDifference"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"curr",
+				"currentSlide"
+			],
+			[
+				"fi",
+				"firstImgSrc"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"fac",
+				"facility"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"pub",
+				"pub_name"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"add",
+				"addUserMarker"
+			],
+			[
+				"cent",
+				"centerMap"
+			],
+			[
+				"sear",
+				"searchByAddress"
+			],
+			[
+				"set",
+				"setMapBounds"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"edit",
+				"editContactView"
+			],
+			[
+				"ed",
+				"editContact"
+			],
+			[
+				"Edi",
+				"editContact"
+			],
+			[
+				"Con",
+				"Contacts"
+			],
+			[
+				"contact",
+				"contactView"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"e",
+				"extend"
+			],
+			[
+				"Vi",
+				"View"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"Add",
+				"AddContact"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"new",
+				"newPubView"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"di",
+				"displayFont"
+			],
+			[
+				"fbl",
+				"fbLastName"
+			],
+			[
+				"review-",
+				"review-rating"
+			],
+			[
+				"session_",
+				"session_destroy"
+			],
+			[
+				"login",
+				"loginUrl"
+			],
+			[
+				"mem",
+				"memberPubs"
+			],
+			[
+				"logg",
+				"loggedIn"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"map",
+				"mapHolder"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"iF",
+				"iFY"
+			],
+			[
+				"main",
+				"mainImg"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"Ma",
+				"MAX_HEIGHT"
+			],
+			[
+				"del",
+				"deleteString"
+			],
+			[
+				"pu",
+				"pubID"
+			],
+			[
+				"dele",
+				"deletePub"
+			],
+			[
+				"bus",
+				"busname"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"j",
+				"jscrollpane"
+			],
+			[
+				"shop",
+				"shopMarkers"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"my",
+				"myMarkers"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"mysql_e",
+				"mysql_error"
+			],
+			[
+				"submit",
+				"submit_loc"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"da",
+				"dataString"
+			],
+			[
+				"sea",
+				"search"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"butt",
+				"button-gradient-hover"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"acti",
+				"activeHeight"
+			],
+			[
+				"tot",
+				"totalImgWidth"
+			],
+			[
+				"back",
+				"background	background-color: hex"
+			],
+			[
+				"he",
+				"head	Tag"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/api.js",
+			"settings":
+			{
+				"buffer_size": 639,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/site.js",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/table.jade",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/table.js",
+			"settings":
+			{
+				"buffer_size": 609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/tables.js",
+			"settings":
+			{
+				"buffer_size": 1941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/src/app.js",
+			"settings":
+			{
+				"buffer_size": 511,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/src/controllers.js",
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/tableListing.jade",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/partials/error.jade",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"file cop",
+				"File: Copy as Tag a"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"File: Close All"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"create",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create p",
+				"Gist: Create Public Gist"
+			],
+			[
+				"prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"syntax htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"syntjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"toggle si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet:",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/James/Sites/budget-app/routes/router1.js",
+		"/Users/James/Sites/budget-app/views/tableListing.jade",
+		"/Users/James/Sites/budget-app/views/layout.jade",
+		"/Users/James/Sites/budget-app/routes/index.js",
+		"/Users/James/Sites/budget-app/router1.js",
+		"/Users/James/Sites/budget-app/router.js",
+		"/Users/James/Sites/budget-app/routes/signup.js",
+		"/Users/James/Sites/budget-app/routes/login.js",
+		"/Users/James/Sites/budget-app/views/login.jade",
+		"/Users/James/Sites/budget-app/views/signup.jade",
+		"/Users/James/Sites/budget-app/views/table.jade",
+		"/Users/James/Sites/budget-app/data/tables.js",
+		"/Users/James/Sites/budget-app/routes/table.js",
+		"/Users/James/Sites/budget-app/routes/tableListing.js",
+		"/Users/James/Sites/budget-app/views/signup",
+		"/Users/James/Sites/budget-app/views/entry.jade",
+		"/Users/James/Sites/budget-app/views/totals.jade",
+		"/Users/James/Sites/budget-app/gulpfile.js",
+		"/Users/James/Sites/budget-app/public/styles/scss/style.scss",
+		"/Users/James/Sites/budget-app/routes/users.js",
+		"/Users/James/Sites/budget-app/public/styles/scss/includes/_settings.scss",
+		"/Users/James/Sites/budget-app/public/js/src/test.js",
+		"/Users/James/Sites/budget-app/data/tableEngine.js",
+		"/Users/James/Sites/budget-app/nodemon123.json",
+		"/Users/James/Sites/budget-app/public/js/src/test2.js",
+		"/Users/James/Sites/budget-app/package.json",
+		"/Users/James/Sites/budget-app/public/styles/style.css",
+		"/Users/James/Sites/budget-app/public/styles/scss/_settings.scss",
+		"/Users/James/Sites/budget-app/public/styles/scss/vars.scss",
+		"/Users/James/Sites/budget-app/view/entry.jade",
+		"/Users/James/Sites/budget-app/nodemon.json",
+		"/Users/James/Sites/budget-app/js/test.js",
+		"/Users/James/Sites/budget-app/server.js",
+		"/Users/James/Sites/budget-app/budget-app.sublime-project",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/10/dynamicsql.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/10/ratings1.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/4/bday2.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/8/hello1.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/4/bday1.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/4/welcome.cfm",
+		"/Users/James/Sites/phpinfo.php",
+		"/private/etc/php.ini.default",
+		"/private/etc/apache2/httpd.conf",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/9/rgbLoop.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/dynamicsql.cfm",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/README.md",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/usr/local/Cellar/php54-mcrypt/5.4.22/mcrypt.so",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/bday1.cfm",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/bday2.cfm",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/James/Desktop/http.conf.backup",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/James/Desktop/httpd-vhosts.conf.backup",
+		"/private/etc/hosts",
+		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/index.cfm",
+		"/private/etc/apache2/httpd.conf.bak",
+		"/private/etc/php.ini",
+		"/Users/James/Sites/d3-test/index.html",
+		"/Users/James/Sites/d3-test/style.css",
+		"/Users/James/Sites/d3-test/basicData.js",
+		"/private/etc/apache2/extra/httpd-userdir.conf",
+		"/private/etc/apache2/extra/httpd-default.conf",
+		"/private/etc/apache2/extra/httpd-vhosts.conf~orig",
+		"/usr/sbin/apachectl",
+		"/Users/James/private/etc/hosts",
+		"/Users/James/Sites/portfolio/sass/main.scss",
+		"/Users/James/Sites/portfolio/samples/paraslider/paraslider.css",
+		"/Users/James/ParaSlider/slider.css",
+		"/Users/James/Sites/portfolio/samples/jquery-parallax-slider.php",
+		"/Users/James/Sites/portfolio/samples/paraslider/paraslider.js",
+		"/Users/James/ParaSlider/slider.js",
+		"/Users/James/Sites/portfolio/samples/paraslider/main.js",
+		"/Users/James/Sites/portfolio/blog/sass-indented-border-mixin.php",
+		"/Users/James/Sites/portfolio/header.inc.php",
+		"/Users/James/Sites/portfolio/about.php",
+		"/Users/James/Sites/portfolio/footer.inc.php",
+		"/Users/James/Sites/portfolio/contact.php",
+		"/Users/James/Sites/portfolio/index.php",
+		"/Users/James/Sites/portfolio/tesco-healthy-choices.php",
+		"/Users/James/Sites/portfolio/tesco-diets.php",
+		"/Users/James/Sites/portfolio/samples/paraslider/main.css",
+		"/Users/James/ParaSlider/example/example.html",
+		"/Users/James/ParaSlider/example/main.js",
+		"/Users/James/Sites/slider-plugin/style.css",
+		"/Users/James/Sites/wordpress/wp-content/themes/mystile/includes/theme-woocommerce.php",
+		"/Users/James/Sites/wordpress/wp-content/themes/mystile/functions.php",
+		"/Users/James/Sites/wordpress/wp-content/themes/mystile/woocommerce/loop/add-to-cart.php",
+		"/Users/James/Sites/wordpress/wp-content/themes/mystile/single.php",
+		"/Users/James/Sites/wordpress/wp-content/themes/mystile/functions/admin-hooks.php",
+		"/Users/James/Sites/wordpress/wp-content/themes/mystile/index.php",
+		"/Users/James/Sites/maps-api/public/js/views/pub_details_view.js",
+		"/Users/James/Sites/maps-api/public/js/app.js",
+		"/Users/James/Sites/maps-api/public/js/main.js",
+		"/Users/James/Sites/maps-api/app/models/User.php",
+		"/Users/James/Sites/maps-api/app/controllers/PubController.php",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/console-log.sublime-snippet",
+		"/Users/James/Sites/maps-api/public/js/views/pub_list_item_view.js",
+		"/Users/James/Sites/maps-api/app/routes.php",
+		"/Users/James/Sites/maps-api/public/js/collections/pubs.js",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/backbone-view.sublime-snippet",
+		"/Users/James/Sites/maps-api/public/css/main.css",
+		"/Users/James/Sites/myapp/public/js/views.js",
+		"/Users/James/Sites/maps/js/script.js",
+		"/Users/James/Sites/maps-api/app/views/home.blade.php",
+		"/Users/James/Sites/maps-api/public/js/models/search.js",
+		"/Users/James/Downloads/initializr/index.html",
+		"/Users/James/Sites/maps-api/public/js/router.js",
+		"/Users/James/Sites/maps-api/public/js/views.js",
+		"/Users/James/Sites/portfolio/portfolio.php",
+		"/Users/James/Sites/maps-api/public/js/sample.js",
+		"/Users/James/Sites/maps-api/public/js/models.js",
+		"/Users/James/Sites/maps-api/public/js/collections.js",
+		"/Users/James/Sites/maps-api/app/models/Pub.php",
+		"/Users/James/Sites/maps-api/app/views/index.blade.php",
+		"/Users/James/Sites/maps-api/app/config/database.php",
+		"/Users/James/Sites/maps-api/app/database/migrations/2013_07_16_212023_create_pubs_table.php",
+		"/Users/James/Sites/maps-api/app/database/seeds/DatabaseSeeder.php",
+		"/Users/James/Sites/maps-api/app/database/seeds/PubTableSeeder.php",
+		"/Users/James/Sites/myapp/app/config/database.php",
+		"/Users/James/Sites/myapp/app/controllers/HomeController.php",
+		"/Users/James/Sites/myapp/app/views/show.blade.php",
+		"/Users/James/Sites/myapp/app/database/seeds/DatabaseSeeder.php",
+		"/Users/James/Sites/myapp/app/database/seeds/ContactsTableSeeder.php",
+		"/Users/James/Sites/myapp/app/database/migrations/2013_03_26_225318_create_contacts_table.php",
+		"/Users/James/Sites/myapp/app/database/seeds/contacts.php",
+		"/Users/James/Sites/myapp/app/controllers/DogsController.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/James/Sites/budget-app",
+			"/Users/James/Sites/wordpress/wp-content/themes/mystile",
+			"/Users/James/Sites/maps-api",
+			"/Users/James/Sites/maps-new"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"phoneId",
+			"phonecatApp",
+			"angular",
+			"foo",
+			"#",
+			"router",
+			"./",
+			"routes",
+			"app",
+			"use",
+			"table",
+			"users",
+			"entry",
+			"bs",
+			"Kitten",
+			"bs-reload",
+			"999",
+			"a",
+			"cssmin",
+			"new Date(),",
+			"welcome to express",
+			"welcome",
+			"pngcrush",
+			"td",
+			"tr",
+			"Hello, it is now #Now()#",
+			"animal_species_description",
+			"att",
+			"animal_type",
+			"animal_description",
+			"animal_type",
+			"options.",
+			"contents",
+			"true,",
+			"parallaxPercent",
+			"widthd",
+			"index",
+			"imgwidths",
+			"middlePos",
+			"[i]",
+			"i",
+			"widthdifference",
+			"widthdiffer",
+			"800",
+			"$('.img-' + nextSlideIndex)",
+			"'.img-' + nextSlideIndex",
+			"'.img-' + currentSlideIndex",
+			"blur",
+			"paraslider",
+			"stop",
+			"totalSlides",
+			"startSlide",
+			"runn",
+			"5",
+			"0.6",
+			"-out",
+			"linear",
+			"1.1",
+			"1",
+			"5",
+			"value;",
+			"(e",
+			"target",
+			"e.target",
+			"vars.totalSlides",
+			"vars.to",
+			"listItem",
+			"600",
+			": '-200px'",
+			": '-100px'",
+			": 0",
+			"0",
+			"animspeed",
+			"3200",
+			"paraslider",
+			"btns",
+			"untitled",
+			"50",
+			"kids",
+			"animate",
+			"anima",
+			"beforecha",
+			"nivoslider",
+			"child",
+			"childHeight",
+			"child",
+			"nivoSlider",
+			"single-product",
+			"minus",
+			"single_add_to_cart_button",
+			"product_meta",
+			"cart",
+			"nav_after",
+			"infoWindowClick",
+			"Blackthorn",
+			"jamesd",
+			"phone",
+			"class=\"info-window-p\">",
+			"500ms",
+			" 1s",
+			"background-color",
+			"main",
+			"show_map",
+			"show_content",
+			"showPubInfo",
+			"testfn",
+			"showInfoWindow",
+			"showPubInfo",
+			"hidePubInfo",
+			"show",
+			"span",
+			"resetBounds",
+			"bounds",
+			"bound",
+			"marker:add",
+			"centerMap",
+			"testFn\nsetMapBounds\ntestFn",
+			"beer",
+			"search",
+			"\"js",
+			"js",
+			"vent",
+			"pubs",
+			"_view",
+			"_initialize_map",
+			"remove",
+			"trigger"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"parallaxPercent",
+			"nextImg",
+			"currentImg",
+			"paraslider",
+			"listItems",
+			"sliderWidth",
+			": leftPos",
+			": middlePos",
+			": rightPos",
+			"rightPos",
+			"settings.animSpeed",
+			"animSpeed",
+			"100",
+			"listItem",
+			"paraSlider",
+			"all",
+			"pubDetails",
+			"showMap",
+			"showContent",
+			"showPubDetail",
+			"showPubInfo",
+			"showInfoWindow",
+			"hideInfoWindow",
+			"searchByCoords",
+			"getUserCoords",
+			"//self.map_controls",
+			"//self.content_controls",
+			"//self.controls",
+			"Pub",
+			"Pubs",
+			"pubs",
+			"pub",
+			"Pub",
+			"pub",
+			"pubs",
+			"Pubs",
+			"pubs",
+			"pub",
+			"Pub",
+			"pub",
+			".php",
+			"row-fluid",
+			"shop",
+			"theSelection",
+			"theSelector",
+			"mainImg",
+			"Facilities",
+			"#ddd",
+			"$highlightClrLight",
+			"$highlightClr",
+			"$highlightClrDark",
+			"$highlightClr",
+			"$bgClrDark",
+			"$bgClr",
+			"800A61",
+			"C715AB",
+			"6C004D",
+			"B30297",
+			"760057",
+			"BD0BA1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 2598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 121.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/api.js",
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/site.js",
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/table.jade",
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "routes/table.js",
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "data/tables.js",
+					"settings":
+					{
+						"buffer_size": 1941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/layout.jade",
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/js/src/app.js",
+					"settings":
+					{
+						"buffer_size": 511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/js/src/controllers.js",
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "views/tableListing.jade",
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "routes/index.js",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "views/partials/error.jade",
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"api.j",
+				"routes/api.js"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"routes.p",
+				"application/routes.php"
+			],
+			[
+				"composer.j",
+				"laravel/vendor/Symfony/Component/Console/composer.json"
+			],
+			[
+				"compo",
+				"laravel/vendor/Symfony/Component/Console/composer.json"
+			],
+			[
+				"ab",
+				"about.php"
+			],
+			[
+				"scss",
+				"sass/main.scss"
+			],
+			[
+				"css",
+				"app/css/bootstrap.css"
+			],
+			[
+				"js",
+				"/Users/James/angular-phonecat/app/js/controllers.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true
+}

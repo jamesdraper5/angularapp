@@ -1,0 +1,24 @@
+doctype html
+html(ng-app="budgetApp")
+	head
+		title= title
+		link(rel='stylesheet', href='/styles/style.css')
+		script(src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,n4,n6,n7,i7.js")
+	body
+		header
+			nav#main-nav.group
+				section#logo
+					a(href='/') logo
+				ul
+					li.nav-item: a(href='/tables') tables
+					li.nav-item: a(href='/signup') signup
+					li.nav-item: a(href='/login') login
+
+		section#main
+			div(ng-view)
+		
+		footer
+
+		script(src='/angular/angular.min.js')
+		script(src='/angular-route/angular-route.min.js')
+		script(src='/js/main.js')
