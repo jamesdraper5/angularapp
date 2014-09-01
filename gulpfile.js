@@ -3,8 +3,8 @@ var gulp        = require('gulp'),
    	jshint 		= require('gulp-jshint'),
    	concat 		= require('gulp-concat'),
     sass        = require('gulp-sass'),
-    imagemin    = require('gulp-imagemin'),
-    pngcrush    = require('imagemin-pngcrush'),
+    /*imagemin    = require('gulp-imagemin'),
+    pngcrush    = require('imagemin-pngcrush'),*/
     cssmin      = require('gulp-cssmin'),
     uncss       = require('gulp-uncss'),
     nodemon     = require('gulp-nodemon'),
@@ -42,11 +42,11 @@ gulp.task('sass', function () {
 // Image minification
 gulp.task('imagemin', function () {
     return gulp.src('public/img/*.*')
-        .pipe(imagemin({
+        /*.pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngcrush()]
-        }))
+        }))*/
         .pipe(gulp.dest('public/img/min'));
 });
 

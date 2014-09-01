@@ -8,6 +8,7 @@ exports.tables = function(req, res) {
 };
 
 exports.table = function(req, res) {
+	console.log('qqqqq', req);
 	var opts = {tableId: parseInt(req.params.id)};
 	var tableData = tableEngine.getTableEntries(req, res, opts, load);
 };

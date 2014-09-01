@@ -1,28 +1,30 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+var ObjectId = Schema.Types.ObjectId;
 
-mongoose.connect('mongodb://localhost/budget');
+mongoose.connect('mongodb://localhost/budgetApp');
 
 var db = mongoose.connection;
 
-db.on('error', console.error.bind(console, 'Mongoose connection error:'));
+db.on('error', console.error.bind(console, 'Mongoose connection errorXXX:'));
 
 db.once('open', function() {
 	// yay!
 	console.log('connected to mongo');
 
+
 	var tableSchema = new Schema({
-		tableId: Number,
+		tableId: ObjectId,
 		name: String,
 		desc: String
 	});
 
 	var entrySchema = new Schema({
-		tableId: Number,
+		tableId: ObjectId,
 		date: { type: Date, default: Date.now },
 		category: String,
 		desc:   String,
-		user: String,
+		userId: ObjectId,
 		amount: Number
 	});
 
@@ -44,18 +46,17 @@ db.once('open', function() {
 		console.log( 'opts: ', opts );
 		var data = null;
 		var total = 0;
-		//var id = parseInt( req.params.id  );
-		var query = Entry.find(opts);
+
+		var query = Entry.find({ tableId: new mongoose.Types.ObjectId("54037ede48f0ad998eef3c5f") });
+
 		query.exec(function (err, docs) {
-			//console.log( 'err: ' + err );
+			console.log( 'err: ' + err );
 			console.log( 'docs: ' + docs );
 			data = docs;
 
 			for ( i in data ) {
-				total += data[i].amount;
-				console.log( 'i.amount: ' + data[i].amount );
+				console.log( 'i: ' + data[i] );
 			}
-			console.log( 'total: ', total );
 			
 			// Call the callback fn if one was specified, otherwise just return the data
 			if ( cb ) {

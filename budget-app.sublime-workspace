@@ -4,614 +4,134 @@
 		"selected_items":
 		[
 			[
-				"tabl",
-				"tableSchema"
+				"cfqu",
+				"cfqueryparam	Tag (cmfl)"
 			],
 			[
-				"table",
-				"tableEngine"
+				"payment",
+				"paymentSource"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"new",
+				"newUserList"
 			],
 			[
-				"s",
-				"separate"
+				"PER",
+				"period3"
 			],
 			[
-				"font",
-				"font-size"
+				"isPaid",
+				"isPaidStripeCustomer"
 			],
 			[
-				"inline",
-				"inline-block"
+				"installationS",
+				"installationStripePlanId"
 			],
 			[
-				"image",
-				"imagemin"
+				"curre",
+				"currentPayPeriod"
 			],
 			[
-				"Dat",
-				"DateInTheaters"
+				"LOCAL",
+				"LOCAL"
 			],
 			[
-				"isD",
-				"isDefined	fn. (cfscript)"
+				"structk",
+				"structKeyExists	fn. (cfscript)"
 			],
 			[
-				"max",
-				"maxLabelLength"
+				"RE",
+				"REQUEST"
 			],
 			[
-				"slider",
-				"sliderHeight"
-			],
-			[
-				"middle",
-				"middlePos"
-			],
-			[
-				"img",
-				"imgWidths"
-			],
-			[
-				"right",
-				"rightPos"
-			],
-			[
-				"webki",
-				"webkit-filter"
-			],
-			[
-				"fa",
-				"fadeOnHover"
-			],
-			[
-				"blu",
-				"blurOnHover"
-			],
-			[
-				"ani",
-				"animating"
-			],
-			[
-				"next",
-				"nextIndex"
-			],
-			[
-				"sli",
-				"sliderWidth"
-			],
-			[
-				"left",
-				"leftPos"
-			],
-			[
-				"wi",
-				"widthDifference"
-			],
-			[
-				"text-",
-				"text-decoration"
-			],
-			[
-				"curr",
-				"currentSlide"
-			],
-			[
-				"fi",
-				"firstImgSrc"
-			],
-			[
-				"backg",
+				"back",
 				"background-color"
 			],
 			[
-				"h",
-				"hidden"
+				"tag",
+				"tagsinput"
 			],
 			[
-				"fac",
-				"facility"
+				"_up",
+				"_updateHintPosition"
 			],
 			[
-				"gett",
-				"gettype"
+				"off",
+				"offsetPixels"
 			],
 			[
-				"pub",
-				"pub_name"
+				"getH",
+				"getHintOffset"
+			],
+			[
+				"current",
+				"currentWord"
+			],
+			[
+				"care",
+				"caretOffset"
+			],
+			[
+				"quer",
+				"queryString"
+			],
+			[
+				"it",
+				"itemsArray"
+			],
+			[
+				"cha",
+				"charAt"
+			],
+			[
+				"te",
+				"textString"
 			],
 			[
 				"text",
-				"text-decoration"
+				"textLength"
 			],
 			[
-				"font-",
-				"font-size"
+				"geti",
+				"getInputValue"
 			],
 			[
-				"add",
-				"addUserMarker"
+				"inputv",
+				"inputVal"
 			],
 			[
-				"cent",
-				"centerMap"
+				"enter",
+				"enterKeyed"
 			],
 			[
-				"sear",
-				"searchByAddress"
-			],
-			[
-				"set",
-				"setMapBounds"
-			],
-			[
-				"backgr",
-				"background-color"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"list",
-				"list-style"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"edit",
-				"editContactView"
-			],
-			[
-				"ed",
-				"editContact"
-			],
-			[
-				"Edi",
-				"editContact"
-			],
-			[
-				"Con",
-				"Contacts"
-			],
-			[
-				"contact",
-				"contactView"
-			],
-			[
-				"con",
-				"contact"
-			],
-			[
-				"e",
-				"extend"
-			],
-			[
-				"Vi",
-				"View"
-			],
-			[
-				"var",
-				"var_dump"
-			],
-			[
-				"Add",
-				"AddContact"
+				"_ma",
+				"_manageAutoTag"
 			],
 			[
 				"fun",
 				"function"
-			],
-			[
-				"new",
-				"newPubView"
-			],
-			[
-				"block",
-				"blockquote"
-			],
-			[
-				"if",
-				"ife	if … else"
-			],
-			[
-				"ab",
-				"absolute"
-			],
-			[
-				"background",
-				"background-position"
-			],
-			[
-				"vert",
-				"vertical-align"
-			],
-			[
-				"di",
-				"displayFont"
-			],
-			[
-				"fbl",
-				"fbLastName"
-			],
-			[
-				"review-",
-				"review-rating"
-			],
-			[
-				"session_",
-				"session_destroy"
-			],
-			[
-				"login",
-				"loginUrl"
-			],
-			[
-				"mem",
-				"memberPubs"
-			],
-			[
-				"logg",
-				"loggedIn"
-			],
-			[
-				"em",
-				"email"
-			],
-			[
-				"map",
-				"mapHolder"
-			],
-			[
-				"json",
-				"json_encode"
-			],
-			[
-				"iF",
-				"iFY"
-			],
-			[
-				"main",
-				"mainImg"
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"Ma",
-				"MAX_HEIGHT"
-			],
-			[
-				"del",
-				"deleteString"
-			],
-			[
-				"pu",
-				"pubID"
-			],
-			[
-				"dele",
-				"deletePub"
-			],
-			[
-				"bus",
-				"busname"
-			],
-			[
-				"first",
-				"firstName"
-			],
-			[
-				"j",
-				"jscrollpane"
-			],
-			[
-				"shop",
-				"shopMarkers"
-			],
-			[
-				"border",
-				"border-top"
-			],
-			[
-				"my",
-				"myMarkers"
-			],
-			[
-				"r",
-				"right"
-			],
-			[
-				"mysql_nu",
-				"mysql_num_rows"
-			],
-			[
-				"lo",
-				"log"
-			],
-			[
-				"mysql_e",
-				"mysql_error"
-			],
-			[
-				"submit",
-				"submit_loc"
-			],
-			[
-				"html",
-				"html	html"
-			],
-			[
-				"da",
-				"dataString"
-			],
-			[
-				"sea",
-				"search"
-			],
-			[
-				"jso",
-				"json_encode"
-			],
-			[
-				"butt",
-				"button-gradient-hover"
-			],
-			[
-				"re",
-				"relative"
-			],
-			[
-				"acti",
-				"activeHeight"
-			],
-			[
-				"tot",
-				"totalImgWidth"
-			],
-			[
-				"back",
-				"background	background-color: hex"
-			],
-			[
-				"he",
-				"head	Tag"
-			],
-			[
-				"se",
-				"section"
-			],
-			[
-				"u",
-				"ul	Tag"
-			],
-			[
-				"head",
-				"header	Tag"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 2598,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/api.js",
-			"settings":
-			{
-				"buffer_size": 639,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/site.js",
-			"settings":
-			{
-				"buffer_size": 521,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/index.jade",
-			"settings":
-			{
-				"buffer_size": 99,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/table.jade",
-			"settings":
-			{
-				"buffer_size": 214,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/table.js",
-			"settings":
-			{
-				"buffer_size": 609,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "data/tables.js",
-			"settings":
-			{
-				"buffer_size": 1941,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/layout.jade",
-			"settings":
-			{
-				"buffer_size": 560,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/src/app.js",
-			"settings":
-			{
-				"buffer_size": 511,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/src/controllers.js",
-			"settings":
-			{
-				"buffer_size": 470,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/tableListing.jade",
-			"settings":
-			{
-				"buffer_size": 237,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/index.js",
-			"settings":
-			{
-				"buffer_size": 221,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/partials/error.jade",
-			"settings":
-			{
-				"buffer_size": 84,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 387.0,
+		"height": 187.0,
 		"selected_items":
 		[
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"proj",
-				"Project: Save As"
-			],
-			[
-				"add",
-				"Project: Add Folder"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"emmet",
-				"Emmet: Wrap With Abbreviation"
-			],
-			[
-				"file cop",
-				"File: Copy as Tag a"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
 			[
 				"inst",
 				"Package Control: Install Package"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"packa",
-				"Package Control: List Packages"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"remov",
-				"Package Control: Remove Package"
-			],
-			[
-				"",
-				"File: Close All"
-			],
-			[
-				"gist",
-				"Gist: Insert Gist"
-			],
-			[
-				"create",
-				"Gist: Create Public Gist"
-			],
-			[
-				"create p",
-				"Gist: Create Public Gist"
-			],
-			[
-				"prefi",
-				"Preferences: Prefixr Key Bindings – Default"
-			],
-			[
-				"syntax htm",
-				"Set Syntax: HTML5"
-			],
-			[
-				"syntjava",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"html",
-				"Set Syntax: HTML5"
-			],
-			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Preferences: Browse Packages"
-			],
-			[
-				"toggle si",
-				"View: Toggle Side Bar"
-			],
-			[
-				"Snippet: ",
-				"Snippet: Lorem ipsum"
-			],
-			[
-				"Snippet:",
-				"Snippet: #!/usr/bin/env"
+				"pret",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
 			]
 		],
-		"width": 467.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -628,134 +148,87 @@
 	},
 	"file_history":
 	[
-		"/Users/James/Sites/budget-app/routes/router1.js",
-		"/Users/James/Sites/budget-app/views/tableListing.jade",
-		"/Users/James/Sites/budget-app/views/layout.jade",
-		"/Users/James/Sites/budget-app/routes/index.js",
-		"/Users/James/Sites/budget-app/router1.js",
-		"/Users/James/Sites/budget-app/router.js",
-		"/Users/James/Sites/budget-app/routes/signup.js",
-		"/Users/James/Sites/budget-app/routes/login.js",
-		"/Users/James/Sites/budget-app/views/login.jade",
-		"/Users/James/Sites/budget-app/views/signup.jade",
-		"/Users/James/Sites/budget-app/views/table.jade",
-		"/Users/James/Sites/budget-app/data/tables.js",
-		"/Users/James/Sites/budget-app/routes/table.js",
-		"/Users/James/Sites/budget-app/routes/tableListing.js",
-		"/Users/James/Sites/budget-app/views/signup",
-		"/Users/James/Sites/budget-app/views/entry.jade",
-		"/Users/James/Sites/budget-app/views/totals.jade",
-		"/Users/James/Sites/budget-app/gulpfile.js",
-		"/Users/James/Sites/budget-app/public/styles/scss/style.scss",
-		"/Users/James/Sites/budget-app/routes/users.js",
-		"/Users/James/Sites/budget-app/public/styles/scss/includes/_settings.scss",
-		"/Users/James/Sites/budget-app/public/js/src/test.js",
-		"/Users/James/Sites/budget-app/data/tableEngine.js",
-		"/Users/James/Sites/budget-app/nodemon123.json",
-		"/Users/James/Sites/budget-app/public/js/src/test2.js",
-		"/Users/James/Sites/budget-app/package.json",
-		"/Users/James/Sites/budget-app/public/styles/style.css",
-		"/Users/James/Sites/budget-app/public/styles/scss/_settings.scss",
-		"/Users/James/Sites/budget-app/public/styles/scss/vars.scss",
-		"/Users/James/Sites/budget-app/view/entry.jade",
-		"/Users/James/Sites/budget-app/nodemon.json",
-		"/Users/James/Sites/budget-app/js/test.js",
-		"/Users/James/Sites/budget-app/server.js",
-		"/Users/James/Sites/budget-app/budget-app.sublime-project",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/10/dynamicsql.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/10/ratings1.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/4/bday2.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/8/hello1.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/4/bday1.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/4/welcome.cfm",
-		"/Users/James/Sites/phpinfo.php",
-		"/private/etc/php.ini.default",
-		"/private/etc/apache2/httpd.conf",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/9/rgbLoop.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/dynamicsql.cfm",
-		"/Users/James/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/README.md",
-		"/Users/James/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
-		"/usr/local/Cellar/php54-mcrypt/5.4.22/mcrypt.so",
-		"/Users/James/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/bday1.cfm",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/bday2.cfm",
-		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
-		"/Users/James/Desktop/http.conf.backup",
-		"/private/etc/apache2/extra/httpd-vhosts.conf",
-		"/Users/James/Desktop/httpd-vhosts.conf.backup",
+		"/Users/james/Sites/angularapp/package.json",
+		"/Users/james/Sites/teamworkpm/gulpfile.js",
+		"/Users/james/Sites/angularapp/node_modules/gulp-uncss/node_modules/uncss/package.json",
+		"/Users/james/Sites/teamworkpm/test.cfm",
+		"/Users/james/Sites/teamworkpm/pages/actions/stripeCallback/index.cfm",
+		"/Users/james/Sites/teamworkpm/js/messages.js",
+		"/Users/james/Sites/teamworkpm/pages/actions/act_Messages_ShowNotifyForm.cfm",
+		"/Users/james/Sites/teamworkpm/pages/cfc/privacy.cfc",
+		"/Users/james/Sites/teamworkpm/cfcs/twcore/tasks.cfc",
+		"/Users/james/Sites/teamworkpm/pages/actions/act_Milestones_AddEdit_ShowMilestoneForm.cfm",
+		"/Users/james/Sites/teamworkpm/pages/cfc/messages.cfc",
+		"/Users/james/Sites/teamworkpm/pages/actions/act_Milestones_ShowFollowersForm.cfm",
+		"/Users/james/Sites/teamworkpm/pages/cfc/notify.cfc",
+		"/Users/james/Sites/teamworkpm/js/main.js",
+		"/Users/james/Sites/teamworkpm/js/ko/models/koCommentEditor.js",
+		"/Users/james/Sites/teamworkpm/pages/cfc/ko/koCommentsView.cfc",
+		"/Users/james/Sites/teamworkpm/pages/actions/act_showPostReplyMessage.cfm",
+		"/Users/james/Sites/teamworkpm/pages/cfc/installation.cfc",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/index.cfm",
+		"/Users/james/Sites/teamworkpm/index.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_makepayment.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_Paypal.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_creditCardStripe.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_subscription/inc_subscription.cfm",
+		"/Users/james/Sites/teamworkpm/pages/actions/act_cancelAccount.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_GetBillingCountryAndVATInfo.cfm",
 		"/private/etc/hosts",
-		"/Applications/ColdFusion10/cfusion/wwwroot/OWS/index.cfm",
-		"/private/etc/apache2/httpd.conf.bak",
-		"/private/etc/php.ini",
-		"/Users/James/Sites/d3-test/index.html",
-		"/Users/James/Sites/d3-test/style.css",
-		"/Users/James/Sites/d3-test/basicData.js",
-		"/private/etc/apache2/extra/httpd-userdir.conf",
-		"/private/etc/apache2/extra/httpd-default.conf",
-		"/private/etc/apache2/extra/httpd-vhosts.conf~orig",
-		"/usr/sbin/apachectl",
-		"/Users/James/private/etc/hosts",
-		"/Users/James/Sites/portfolio/sass/main.scss",
-		"/Users/James/Sites/portfolio/samples/paraslider/paraslider.css",
-		"/Users/James/ParaSlider/slider.css",
-		"/Users/James/Sites/portfolio/samples/jquery-parallax-slider.php",
-		"/Users/James/Sites/portfolio/samples/paraslider/paraslider.js",
-		"/Users/James/ParaSlider/slider.js",
-		"/Users/James/Sites/portfolio/samples/paraslider/main.js",
-		"/Users/James/Sites/portfolio/blog/sass-indented-border-mixin.php",
-		"/Users/James/Sites/portfolio/header.inc.php",
-		"/Users/James/Sites/portfolio/about.php",
-		"/Users/James/Sites/portfolio/footer.inc.php",
-		"/Users/James/Sites/portfolio/contact.php",
-		"/Users/James/Sites/portfolio/index.php",
-		"/Users/James/Sites/portfolio/tesco-healthy-choices.php",
-		"/Users/James/Sites/portfolio/tesco-diets.php",
-		"/Users/James/Sites/portfolio/samples/paraslider/main.css",
-		"/Users/James/ParaSlider/example/example.html",
-		"/Users/James/ParaSlider/example/main.js",
-		"/Users/James/Sites/slider-plugin/style.css",
-		"/Users/James/Sites/wordpress/wp-content/themes/mystile/includes/theme-woocommerce.php",
-		"/Users/James/Sites/wordpress/wp-content/themes/mystile/functions.php",
-		"/Users/James/Sites/wordpress/wp-content/themes/mystile/woocommerce/loop/add-to-cart.php",
-		"/Users/James/Sites/wordpress/wp-content/themes/mystile/single.php",
-		"/Users/James/Sites/wordpress/wp-content/themes/mystile/functions/admin-hooks.php",
-		"/Users/James/Sites/wordpress/wp-content/themes/mystile/index.php",
-		"/Users/James/Sites/maps-api/public/js/views/pub_details_view.js",
-		"/Users/James/Sites/maps-api/public/js/app.js",
-		"/Users/James/Sites/maps-api/public/js/main.js",
-		"/Users/James/Sites/maps-api/app/models/User.php",
-		"/Users/James/Sites/maps-api/app/controllers/PubController.php",
-		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/console-log.sublime-snippet",
-		"/Users/James/Sites/maps-api/public/js/views/pub_list_item_view.js",
-		"/Users/James/Sites/maps-api/app/routes.php",
-		"/Users/James/Sites/maps-api/public/js/collections/pubs.js",
-		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/backbone-view.sublime-snippet",
-		"/Users/James/Sites/maps-api/public/css/main.css",
-		"/Users/James/Sites/myapp/public/js/views.js",
-		"/Users/James/Sites/maps/js/script.js",
-		"/Users/James/Sites/maps-api/app/views/home.blade.php",
-		"/Users/James/Sites/maps-api/public/js/models/search.js",
-		"/Users/James/Downloads/initializr/index.html",
-		"/Users/James/Sites/maps-api/public/js/router.js",
-		"/Users/James/Sites/maps-api/public/js/views.js",
-		"/Users/James/Sites/portfolio/portfolio.php",
-		"/Users/James/Sites/maps-api/public/js/sample.js",
-		"/Users/James/Sites/maps-api/public/js/models.js",
-		"/Users/James/Sites/maps-api/public/js/collections.js",
-		"/Users/James/Sites/maps-api/app/models/Pub.php",
-		"/Users/James/Sites/maps-api/app/views/index.blade.php",
-		"/Users/James/Sites/maps-api/app/config/database.php",
-		"/Users/James/Sites/maps-api/app/database/migrations/2013_07_16_212023_create_pubs_table.php",
-		"/Users/James/Sites/maps-api/app/database/seeds/DatabaseSeeder.php",
-		"/Users/James/Sites/maps-api/app/database/seeds/PubTableSeeder.php",
-		"/Users/James/Sites/myapp/app/config/database.php",
-		"/Users/James/Sites/myapp/app/controllers/HomeController.php",
-		"/Users/James/Sites/myapp/app/views/show.blade.php",
-		"/Users/James/Sites/myapp/app/database/seeds/DatabaseSeeder.php",
-		"/Users/James/Sites/myapp/app/database/seeds/ContactsTableSeeder.php",
-		"/Users/James/Sites/myapp/app/database/migrations/2013_03_26_225318_create_contacts_table.php",
-		"/Users/James/Sites/myapp/app/database/seeds/contacts.php",
-		"/Users/James/Sites/myapp/app/controllers/DogsController.php"
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/james/Sites/teamworkpm/pages/cfc/subscriptionPayments.cfc",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/act_ProcessStripePayment.cfm",
+		"/Users/james/Sites/teamworkpm/inc_developerModeOnOff.cfm",
+		"/Users/james/Sites/teamworkpm/pages/actions/worldnetCallback/index.cfm",
+		"/Users/james/Sites/teamworkpm/teamworkpm.sublime-workspace",
+		"/Users/james/Sites/teamworkpm/pages/actions/act_upgradeDowngradeSubscription.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_dashboard/inc_sidebar_checkTrialOver.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_CreditCard2.cfm",
+		"/Users/james/Sites/teamworkpm/pages/actions/stripeCallback/test.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/css/billing.teamworkpm.net.css",
+		"/Users/james/Dropbox/Work/Stripe 2/subscriptionPayments.cfc",
+		"/Users/james/Sites/teamworkpm/cfcs/utility/strings.cfc",
+		"/Users/james/Sites/teamworkpm/js/_m/jquery.ext.js",
+		"/Users/james/Sites/teamworkpm/ApplicationProxy.cfc",
+		"/Users/james/Sites/teamworkpm/js/libs/jquery.ext.js",
+		"/Users/james/Desktop/pages\\cfc\\subscriptionPayments.cfc",
+		"/Users/james/Desktop/pages_actions_stripeCallback_index.cfm",
+		"/Users/james/Desktop/pages-includes-page_externalsitepage-billing.teamworkpm.net-act_ProcessStripePayment.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/act_processPayment.cfm",
+		"/Users/james/Dropbox/Work/Stripe-prorating.cfm",
+		"/Users/james/Desktop/webhook-url.txt",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_act_paymentForm_GetBillingCountryAndVATInfo.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/inc_determineInstallation.cfm",
+		"/private/etc/apache2/httpd.conf",
+		"/private/var/log/apache2/error_log",
+		"/private/var/log/apache2/access_log",
+		"/private/etc/apache2/extra/httpd-info.conf",
+		"/private/etc/apache2/httpd.conf.1",
+		"/Users/james/Dropbox/Work/temp.cfm",
+		"/Users/james/Sites/teamworkpm/.htaccess",
+		"/Users/james/Sites/teamworkpm/inc_determineInstallation.cfm",
+		"/Users/james/Sites/teamworkpm/pages/dsp_home.cfm",
+		"/Users/james/Sites/teamworkpm/twSiteEngine/includes/inc_processPageRequest.cfm",
+		"/Users/james/Sites/teamworkpm/ext.cfm",
+		"/Users/james/Sites/teamworkpm/pages/includes/page_subscription/inc_makepayment.cfm",
+		"/Users/james/Sites/teamworkpm/Application.cfc",
+		"/Users/james/Sites/teamworkpm/index.html",
+		"/Users/james/.bash_profile",
+		"/Users/james/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/james/Sites/teamwork.com/siteEngine/includes/dccom.cfm",
+		"/Users/james/Sites/teamwork.com/siteEngine/cfformprotect/cffpVerify.cfc",
+		"/Users/james/Sites/teamwork.com/siteEngine/cfformprotect/cffpConfig.cfm",
+		"/Users/james/Sites/teamwork.com/siteEngine/cfc/siteEngine.cfc",
+		"/Users/james/Sites/taskTags/files/bootstrap-tagsinput.js",
+		"/Users/james/Sites/taskTags/files/typeahead.js",
+		"/Users/james/Sites/taskTags/index.html",
+		"/Users/james/Sites/taskTags/projectData.json",
+		"/Users/james/Sites/taskTags/files/moment.js",
+		"/Users/james/Desktop/tagsinput.bk.js",
+		"/Users/james/Desktop/taskTags2/files/bootstrap-tagsinput.js",
+		"/Users/james/Dropbox/TeamworkPMSharedFiles/temp/taskTags2/files/bootstrap-tagsinput.js",
+		"/Users/james/Sites/taskTags/files/app.css",
+		"/Users/james/Library/Application Support/Sublime Text 2/Packages/User/console-log.sublime-snippet"
 	],
 	"find":
 	{
@@ -766,10 +239,16 @@
 		"height": 0.0,
 		"where_history":
 		[
-			"/Users/James/Sites/budget-app",
-			"/Users/James/Sites/wordpress/wp-content/themes/mystile",
-			"/Users/James/Sites/maps-api",
-			"/Users/James/Sites/maps-new"
+			"/Users/james/Sites/teamworkpm/js/ko",
+			"/Users/james/Sites/teamworkpm/js",
+			"/Users/james/Sites/teamworkpm/",
+			"/Users/james/Sites/teamworkpm/autoupdate",
+			"/private,/Users/james",
+			"/private",
+			"/Users/james/Sites/",
+			"/Users/james/Sites/teamworkpm",
+			"/Users/james/Sites/teamwork.com/siteEngine",
+			""
 		]
 	},
 	"find_state":
@@ -777,134 +256,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			";",
-			"phoneId",
-			"phonecatApp",
-			"angular",
-			"foo",
-			"#",
-			"router",
-			"./",
-			"routes",
-			"app",
-			"use",
-			"table",
-			"users",
-			"entry",
-			"bs",
-			"Kitten",
-			"bs-reload",
-			"999",
-			"a",
-			"cssmin",
-			"new Date(),",
-			"welcome to express",
-			"welcome",
-			"pngcrush",
-			"td",
-			"tr",
-			"Hello, it is now #Now()#",
-			"animal_species_description",
-			"att",
-			"animal_type",
-			"animal_description",
-			"animal_type",
-			"options.",
-			"contents",
-			"true,",
-			"parallaxPercent",
-			"widthd",
-			"index",
-			"imgwidths",
-			"middlePos",
-			"[i]",
-			"i",
-			"widthdifference",
-			"widthdiffer",
-			"800",
-			"$('.img-' + nextSlideIndex)",
-			"'.img-' + nextSlideIndex",
-			"'.img-' + currentSlideIndex",
-			"blur",
-			"paraslider",
-			"stop",
-			"totalSlides",
-			"startSlide",
-			"runn",
-			"5",
-			"0.6",
-			"-out",
-			"linear",
-			"1.1",
-			"1",
-			"5",
-			"value;",
-			"(e",
-			"target",
-			"e.target",
-			"vars.totalSlides",
-			"vars.to",
-			"listItem",
-			"600",
-			": '-200px'",
-			": '-100px'",
-			": 0",
-			"0",
-			"animspeed",
-			"3200",
-			"paraslider",
-			"btns",
-			"untitled",
-			"50",
-			"kids",
-			"animate",
-			"anima",
-			"beforecha",
-			"nivoslider",
-			"child",
-			"childHeight",
-			"child",
-			"nivoSlider",
-			"single-product",
-			"minus",
-			"single_add_to_cart_button",
-			"product_meta",
-			"cart",
-			"nav_after",
-			"infoWindowClick",
-			"Blackthorn",
-			"jamesd",
-			"phone",
-			"class=\"info-window-p\">",
-			"500ms",
-			" 1s",
-			"background-color",
-			"main",
-			"show_map",
-			"show_content",
-			"showPubInfo",
-			"testfn",
-			"showInfoWindow",
-			"showPubInfo",
-			"hidePubInfo",
-			"show",
-			"span",
-			"resetBounds",
-			"bounds",
-			"bound",
-			"marker:add",
-			"centerMap",
-			"testFn\nsetMapBounds\ntestFn",
-			"beer",
-			"search",
-			"\"js",
-			"js",
-			"vent",
-			"pubs",
-			"_view",
-			"_initialize_map",
-			"remove",
-			"trigger"
+			"reusablePipes",
+			"customer.subscription.created",
+			"Followers Indicator",
+			"Followers Indicator ",
+			"Followers Indicator",
+			"currentUserFollowingTask",
+			"Followers Indicator ",
+			"showaddtask",
+			"customer.subscription.created",
+			"cancel",
+			"<cffunction",
+			"messages.",
+			"\\v",
+			"newUserNameText",
+			"List",
+			"maxNames",
+			"msg",
+			"setuptipped",
+			"Tipped.on",
+			"setPrivacyOptions",
+			"follower",
+			"setFollowerOptions",
+			"follower",
+			"followers",
+			"follower",
+			"originalSelVal",
+			"renderMessageNotifyOptions",
+			"selVals",
+			"setPrivacyOptions",
+			"/span",
+			"<span",
+			"AddOrEditMilestone",
+			"milestone",
+			"MilestoneFollower",
+			"#LOCAL.notifyFieldId#",
+			"newmessagenoti",
+			"click",
+			"click to update",
+			"_label",
+			"followersContainer",
+			"privacyField",
+			"receiveEmailNotifications",
+			"receivee",
+			"followersField",
+			"});\n",
+			"followersField",
+			"getPeopleOnProject",
+			"REQUEST.getUsers",
+			"gettip_categorypicker\"",
+			"message",
+			"projectId",
+			"LOCAL.privacyFieldId",
+			"messageId",
+			"milestoneId",
+			"ShowFollowersLB",
+			"followers",
+			"notifyText",
+			"bShowAllOptions",
+			"notifyText",
+			"<cfoutput>",
+			"</cfoutput>",
+			"notified",
+			"Build",
+			"getMessagePostFormHTML\"",
+			"getMessagePostFormHTML",
+			"../../..",
+			"../..",
+			"../../../",
+			"ngrok",
+			"subscr_signup",
+			"customer.subscription.created",
+			"../../../twSite",
+			"billing address is with the eur",
+			"tax",
+			"oldPriceRefund",
+			"twsiteengine",
+			"subscr_payment",
+			"DELETION",
+			"createInvoiceItem",
+			"recurTax",
+			"'stripe'",
+			"data-is-stripe",
+			"isStripeUser",
+			"\"stripe\"",
+			"cardDetailsStored",
+			"\"stripe\"",
+			"installationstripe",
+			"paymentmethod",
+			"REQUEST.currentPayPeriod",
+			"updating credit card details",
+			"worldnetLogger",
+			"cancellationError",
+			"customer.subscription.deleted",
+			"../../../twSiteEngine",
+			"creditCardStored",
+			"capfirst",
+			"uppercase",
+			"capfirst",
+			"uppercasefirst",
+			"ucasefirst",
+			"'subscr",
+			"'subscr_",
+			"taskfollowers",
+			"name=\"payschedule",
+			"payschedule",
+			"istrackingchanges",
+			"drawPaymentOption",
+			"getSubscriptionTable",
+			"drawpaymentoption",
+			"drawpay",
+			"paySchedule",
+			"oldPayPeriod",
+			"paySchedule",
+			"name=\"payschedule",
+			"log",
+			"qrygetold",
+			"develop",
+			"ccSubmitSpinner",
+			"spinnerrow",
+			"invalidate()",
+			"sessioninvalidate",
+			"cookie",
+			"james",
+			"fieldsDesc",
+			"\"customer.subscription.updated\"",
+			"LOCAL.prevPlanId",
+			"customer.subscription.updated",
+			"pending"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -912,66 +391,10 @@
 		"regex": false,
 		"replace_history":
 		[
-			"parallaxPercent",
-			"nextImg",
-			"currentImg",
-			"paraslider",
-			"listItems",
-			"sliderWidth",
-			": leftPos",
-			": middlePos",
-			": rightPos",
-			"rightPos",
-			"settings.animSpeed",
-			"animSpeed",
-			"100",
-			"listItem",
-			"paraSlider",
-			"all",
-			"pubDetails",
-			"showMap",
-			"showContent",
-			"showPubDetail",
-			"showPubInfo",
-			"showInfoWindow",
-			"hideInfoWindow",
-			"searchByCoords",
-			"getUserCoords",
-			"//self.map_controls",
-			"//self.content_controls",
-			"//self.controls",
-			"Pub",
-			"Pubs",
-			"pubs",
-			"pub",
-			"Pub",
-			"pub",
-			"pubs",
-			"Pubs",
-			"pubs",
-			"pub",
-			"Pub",
-			"pub",
-			".php",
-			"row-fluid",
-			"shop",
-			"theSelection",
-			"theSelector",
-			"mainImg",
-			"Facilities",
-			"#ddd",
-			"$highlightClrLight",
-			"$highlightClr",
-			"$highlightClrDark",
-			"$highlightClr",
-			"$bgClrDark",
-			"$bgClr",
-			"800A61",
-			"C715AB",
-			"6C004D",
-			"B30297",
-			"760057",
-			"BD0BA1"
+			"REQUEST.daysAlreadyPaidFor",
+			"/",
+			".data('item'",
+			".attr('data-item'"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -982,358 +405,8 @@
 	"groups":
 	[
 		{
-			"selected": 12,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app.js",
-					"settings":
-					{
-						"buffer_size": 2598,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								589,
-								589
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 121.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "routes/api.js",
-					"settings":
-					{
-						"buffer_size": 639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "routes/site.js",
-					"settings":
-					{
-						"buffer_size": 521,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								150,
-								0
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "views/index.jade",
-					"settings":
-					{
-						"buffer_size": 99,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								99,
-								99
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "views/table.jade",
-					"settings":
-					{
-						"buffer_size": 214,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "routes/table.js",
-					"settings":
-					{
-						"buffer_size": 609,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								609,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "data/tables.js",
-					"settings":
-					{
-						"buffer_size": 1941,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1179,
-								1179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "views/layout.jade",
-					"settings":
-					{
-						"buffer_size": 560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								483,
-								483
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "public/js/src/app.js",
-					"settings":
-					{
-						"buffer_size": 511,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "public/js/src/controllers.js",
-					"settings":
-					{
-						"buffer_size": 470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "views/tableListing.jade",
-					"settings":
-					{
-						"buffer_size": 237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								184,
-								184
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "routes/index.js",
-					"settings":
-					{
-						"buffer_size": 221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								109
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "views/partials/error.jade",
-					"settings":
-					{
-						"buffer_size": 84,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1368,10 +441,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 25.0
-	},
 	"replace":
 	{
 		"height": 64.0
@@ -1383,44 +452,220 @@
 		"selected_items":
 		[
 			[
-				"api.j",
-				"routes/api.js"
+				"g",
+				"gulpfile.js"
 			],
 			[
-				"p",
-				"package.json"
+				"stripecall",
+				"pages/actions/stripeCallback/index.cfm"
 			],
 			[
-				"route",
-				"app/routes.php"
+				"incdev",
+				"inc_developerModeOnOff.cfm"
 			],
 			[
-				"routes.p",
-				"application/routes.php"
+				"test",
+				"test.cfm"
 			],
 			[
-				"composer.j",
-				"laravel/vendor/Symfony/Component/Console/composer.json"
+				"stripecallback",
+				"pages/actions/stripeCallback/index.cfm"
 			],
 			[
-				"compo",
-				"laravel/vendor/Symfony/Component/Console/composer.json"
+				"kotaslita",
+				"js/ko/koTaskListTasksView.js"
 			],
 			[
-				"ab",
-				"about.php"
+				"kotasv",
+				"js/ko/koTaskViewModel.js"
 			],
 			[
-				"scss",
-				"sass/main.scss"
+				"kotaskte",
+				"pages/cfc/ko/koTaskTemplate.cfc"
+			],
+			[
+				"twcoretasks",
+				"cfcs/twcore/tasks.cfc"
+			],
+			[
+				"kocommen",
+				"js/ko/models/koCommentEditor.js"
+			],
+			[
+				"mainjs",
+				"js/main.js"
+			],
+			[
+				"privacy.cfc",
+				"pages/cfc/privacy.cfc"
+			],
+			[
+				"notify.cfc",
+				"pages/cfc/notify.cfc"
+			],
+			[
+				"milestonesshowfoll",
+				"pages/actions/act_Milestones_ShowFollowersForm.cfm"
+			],
+			[
+				"messages.j",
+				"js/messages.js"
+			],
+			[
+				"kocommentcfc",
+				"pages/cfc/ko/koCommentsView.cfc"
+			],
+			[
+				"showpostr",
+				"pages/actions/act_showPostReplyMessage.cfm"
+			],
+			[
+				"editmilestone",
+				"pages/actions/act_Milestones_AddEdit_ShowMilestoneForm.cfm"
+			],
+			[
+				"pagesinstall",
+				"pages/cfc/installation.cfc"
+			],
+			[
+				"deve",
+				"inc_developerModeOnOff.cfm"
+			],
+			[
+				"billingindex",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/index.cfm"
+			],
+			[
+				"index",
+				"index.cfm"
+			],
+			[
+				"worldnet",
+				"pages/actions/worldnetCallback/index.cfm"
+			],
+			[
+				"strings",
+				"cfcs/utility/strings.cfc"
+			],
+			[
+				"checktrial",
+				"pages/includes/page_dashboard/inc_sidebar_checkTrialOver.cfm"
+			],
+			[
+				"incmak",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_makepayment.cfm"
+			],
+			[
+				"incpaymentformcr",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_CreditCard2.cfm"
+			],
+			[
+				"incpaypal",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_Paypal.cfm"
+			],
+			[
+				"billingcss",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/css/billing.teamworkpm.net.css"
+			],
+			[
+				"stripe",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_creditCardStripe.cfm"
+			],
+			[
+				"a",
+				"ApplicationProxy.cfc"
+			],
+			[
+				"dev",
+				"inc_developerModeOnOff.cfm"
+			],
+			[
+				"actprocess",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/act_processPayment.cfm"
+			],
+			[
+				"subscri",
+				"pages/cfc/subscriptionPayments.cfc"
+			],
+			[
+				"processs",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/act_ProcessStripePayment.cfm"
+			],
+			[
+				"inc_act_paymentform_getbillingcountryandvatinfo.cfm",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_act_paymentForm_GetBillingCountryAndVATInfo.cfm"
+			],
+			[
+				"pagesincludessubscrip",
+				"pages/includes/page_subscription/inc_subscription.cfm"
+			],
+			[
+				"stripeca",
+				"pages/actions/stripeCallback/index.cfm"
+			],
+			[
+				"makep",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_makepayment.cfm"
+			],
+			[
+				"creditcard",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_paymentForm_creditCardStripe.cfm"
+			],
+			[
+				"billingmakep",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/inc_makepayment.cfm"
+			],
+			[
+				"incmake",
+				"pages/includes/page_subscription/inc_makepayment.cfm"
+			],
+			[
+				"billingtemworkindex",
+				"pages/includes/page_externalsitepage/billing.teamworkpm.net/index.cfm"
+			],
+			[
+				"indexcfm",
+				"index.cfm"
+			],
+			[
+				"includesprocess",
+				"twSiteEngine/includes/inc_processPageRequest.cfm"
+			],
+			[
+				"pagesdeter",
+				"pages/includes/inc_determineInstallation.cfm"
+			],
+			[
+				"deter",
+				"inc_determineInstallation.cfm"
+			],
+			[
+				"dsphome",
+				"pages/dsp_home.cfm"
+			],
+			[
+				"incprocessreq",
+				"twSiteEngine/includes/inc_processPageRequest.cfm"
+			],
+			[
+				"ext",
+				"ext.cfm"
+			],
+			[
+				"pages/dsp_home.cfm",
+				"pages/dsp_home.cfm"
+			],
+			[
+				"inc_subscr",
+				"pages/includes/page_subscription/inc_subscription.cfm"
 			],
 			[
 				"css",
-				"app/css/bootstrap.css"
+				"files/app.css"
 			],
 			[
-				"js",
-				"/Users/James/angular-phonecat/app/js/controllers.js"
+				"tag",
+				"files/bootstrap-tagsinput.js"
 			]
 		],
 		"width": 0.0
@@ -1434,9 +679,9 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 231.0,
+	"side_bar_visible": false,
+	"side_bar_width": 187.0,
 	"status_bar_visible": true
 }

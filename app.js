@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname + '/bower_components'));
 
 // define any app-wide variables
-app.locals.moment = require('moment');
+//app.locals.moment = require('moment');
 
 
 /**************************************************
@@ -80,10 +80,13 @@ app.use(function(req, res, next) {
 if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
-        res.render('error', {
+                
+        res.json({
             message: err.message,
             error: err
         });
+
+        console.log('Error:', err);
     });
 }
 

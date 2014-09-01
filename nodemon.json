@@ -1,4 +1,4 @@
 {
   "verbose": true,
-  "ignore": ["public/*", "build/*, app/*"]
+  "ignore": ["public/*", "build/*, app/*, node_modules/*, bower_components/*"]
 }

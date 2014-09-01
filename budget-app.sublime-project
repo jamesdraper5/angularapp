@@ -2,17 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/Users/James/Sites/budget-app",
-			"name": "root",
-			"file_exclude_patterns":[
-                "._*",
-                "*.ico",
-                "*.sublime-*"
-            ],
-            "folder_exclude_patterns": [
-                "node_modules",
-                "bin"
-            ]
+			"path": "/Users/james/Sites/angularapp"
 		}
 	]
 }

@@ -1,21 +1,24 @@
-var budgetApp = angular.module('budgetApp', [
-  'ngRoute',
-  'phonecatControllers'
-]);
+var budgetApp = angular.module('budgetApp', ['ngRoute', 'budgetAppControllers']);
 
-budgetApp.config(['$routeProvider',
-  	function($routeProvider) {
-    	$routeProvider.
-      		when('/tables', {
-        		templateUrl: 'partials/tableListing',
-        		controller: 'PhoneListCtrl'
-      		}).
-      		when('/tables/:tableId', {
-        		templateUrl: 'partials/phone-detail.html',
-        		controller: 'PhoneDetailCtrl'
-      		}).
-      		otherwise({
-        		redirectTo: '/tables'
-      		});
-  	}
+budgetApp.config(['$routeProvider', '$locationProvider',
+	function($routeProvider, $locationProvider) {
+		$routeProvider.
+			when('/', {
+				templateUrl: 'partials/home',
+				controller: 'HomeCtrl'
+			}).
+			when('/tables', {
+				templateUrl: 'partials/tableListing',
+				controller: 'TableListCtrl'
+			}).
+			when('/tables/:id', {
+				templateUrl: 'partials/table',
+				controller: 'TableDetailCtrl'
+			}).
+			otherwise({
+				redirectTo: '/' 
+			});
+
+	  	$locationProvider.html5Mode(true);
+	}
 ]);
