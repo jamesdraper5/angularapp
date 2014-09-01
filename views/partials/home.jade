@@ -1,0 +1,16 @@
+h1 Home
+p home page
+
+label Search:
+input(ng-model="query")
+
+label Sort by:
+select(ng-model="orderProp")
+	option(value="name") Alphabetical
+	option(value="age") Newest
+
+div
+	ul
+		li(ng-repeat="phone in phones | filter:query | orderBy:orderProp")
+			a(href="#/phones/{{phone.id}}") {{phone.name}}
+			p {{phone.snippet}}

@@ -1,9 +1,10 @@
-extends layout
+h1 Table Page
 
-block content
-	h1 Table
-	p=title
+p This is the table page
 
+p The selected table is {{'table ' + table.tableId}}
+
+form#add-entry(ng-submit='addEntry()')
 	table#data-table
 		thead
 			td Date
@@ -12,6 +13,24 @@ block content
 			td Name
 			td Amount			
 		tbody
-			for entry in data
-				include entry
-			//include totals
+			tr(ng-repeat='entry in entries')
+				td {{entry.date | date: 'medium'}}
+				td {{entry.category}}
+				td {{entry.desc}}
+				td {{entry.userId}}
+				td {{entry.amount}}
+			tr.add-entry-row(ng-hide='isEditMode')
+				td(colspan='5')
+					a(href='', ng-click='toggleAddForm()') Click to add
+			tr.entry-form-row(ng-show='isEditMode')
+				td
+					input(type='date', class='input-transparent')
+				td
+					input(type='text', class='input-transparent')
+				td
+					input(type='text', class='input-transparent')
+				td
+					input(type='text', class='input-transparent')
+				td
+					input(type='text', class='input-transparent')
+					input(type='submit', class='hidden')
