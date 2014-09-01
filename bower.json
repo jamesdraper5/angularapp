@@ -1,0 +1,37 @@
+{
+  "name": "angularapp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jamesdraper5/angularapp",
+  "authors": [
+    "James Draper <jamesdrape@gmail.com>"
+  ],
+  "description": "MEAN stack web app",
+  "main": "app.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "MEAN",
+    "stack",
+    "express",
+    "node",
+    "angular",
+    "mongodb"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-latest": "~1.2.23",
+    "angular-route": "~1.2.23",
+    "angular": "~1.2.23",
+    "moment": "~2.8.2"
+  }
+}
