@@ -46,8 +46,9 @@ app.get('/partials/:name', routes.partials);
 
 // API
 // Tables
-app.get('/api/tables', api.tables);
-app.get('/api/tables/:id', api.table);
+app.get('/api/tables', api.tables.getAllTables);
+app.get('/api/tables/:id', api.tables.getTableById);
+app.post('/api/entries', api.tables.createEntry);
 
 // Users
 /*app.all('/users', user.list);

@@ -14,9 +14,9 @@ db.once('open', function() {
 
 
 	var tableSchema = new Schema({
-		tableId: ObjectId,
 		name: String,
-		desc: String
+		desc: String,
+		userId: ObjectId
 	});
 
 	var entrySchema = new Schema({
@@ -24,7 +24,7 @@ db.once('open', function() {
 		date: { type: Date, default: Date.now },
 		category: String,
 		desc:   String,
-		userId: ObjectId,
+		paidBy: String,
 		amount: Number
 	});
 
@@ -43,20 +43,22 @@ db.once('open', function() {
 
 	// List all table rows that match the opts argument 
 	exports.getTableEntries = function(req, res, opts, cb) {
-		console.log( 'opts: ', opts );
+
 		var data = null;
 		var total = 0;
 
-		var query = Entry.find({ tableId: new mongoose.Types.ObjectId("54037ede48f0ad998eef3c5f") });
+		if ( opts ) {
+			var opts = {
+				tableId: new mongoose.Types.ObjectId(req.params.id)
+			}
+		}
+
+		var query = Entry.find(opts);
 
 		query.exec(function (err, docs) {
 			console.log( 'err: ' + err );
-			console.log( 'docs: ' + docs );
+			//console.log( 'docs: ' + docs );
 			data = docs;
-
-			for ( i in data ) {
-				console.log( 'i: ' + data[i] );
-			}
 			
 			// Call the callback fn if one was specified, otherwise just return the data
 			if ( cb ) {
@@ -86,6 +88,27 @@ db.once('open', function() {
 
 			return docs;
 		});
+	}
+
+	// Create an entry
+	exports.createTableEntry = function(entry, cb) {
+		console.log( 'entry: ', entry );
+		
+		var newEntry = new Entry(entry);
+		newEntry.save(function (err, result, numberAffected) {
+		  	if (err) {
+		  		console.log('err', err);
+		  	} else {
+
+		  		// Call the callback fn if one was specified, otherwise just return the data
+		  		if ( cb ) {
+		  			return cb(result);
+		  		} else {
+		  			return result;
+		  		}
+		  	}
+		});
+
 	}
 
 });

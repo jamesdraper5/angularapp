@@ -4,33 +4,35 @@ p This is the table page
 
 p The selected table is {{'table ' + table.tableId}}
 
-form#add-entry(ng-submit='addEntry()')
+pre form = {{newEntry | json}}
+
+form#add-entry(ng-submit='addEntry(newEntry)')
 	table#data-table
 		thead
-			td Date
-			td Category
-			td Description
-			td Name
-			td Amount			
+			td(ng-click="sortOrder='date'; reverse=!reverse") Date
+			td(ng-click="sortOrder='category'; reverse=!reverse") Category
+			td(ng-click="sortOrder='desc'; reverse=!reverse") Description
+			td(ng-click="sortOrder='userId'; reverse=!reverse") Name
+			td(ng-click="sortOrder='amount'; reverse=!reverse") Amount			
 		tbody
-			tr(ng-repeat='entry in entries')
-				td {{entry.date | date: 'medium'}}
+			tr(ng-repeat='entry in entries | orderBy:sortOrder:reverse')
+				td {{entry.date | date: 'dd/MM/yyyy'}}
 				td {{entry.category}}
 				td {{entry.desc}}
-				td {{entry.userId}}
-				td {{entry.amount}}
+				td {{entry.paidBy}}
+				td {{entry.amount | currency: '€'}}
 			tr.add-entry-row(ng-hide='isEditMode')
 				td(colspan='5')
 					a(href='', ng-click='toggleAddForm()') Click to add
 			tr.entry-form-row(ng-show='isEditMode')
 				td
-					input(type='date', class='input-transparent')
+					input(type='date', class='input-transparent', ng-model='newEntry.date')
 				td
-					input(type='text', class='input-transparent')
+					input(type='text', class='input-transparent', ng-model='newEntry.category')
 				td
-					input(type='text', class='input-transparent')
+					input(type='text', class='input-transparent', ng-model='newEntry.desc')
 				td
-					input(type='text', class='input-transparent')
+					input(type='text', class='input-transparent', ng-model='newEntry.paidBy')
 				td
-					input(type='text', class='input-transparent')
+					input(type='text', class='input-transparent', ng-model='newEntry.amount')
 					input(type='submit', class='hidden')

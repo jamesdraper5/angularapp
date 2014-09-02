@@ -1,37 +1,5 @@
 var budgetAppControllers = angular.module('budgetAppControllers', []);
 
-budgetAppControllers.controller('TableListCtrl', ['$scope', '$http',
-	function ($scope, $http) {
-		/*
-		$http.get('api/tables').success(function(data) {
-			$scope.phones = data;
-		});
-		*/
-		//$scope.orderProp = 'age';
-		
-		$scope.data = {
-			foo: 'bar',
-			test: 'yes'
-		};
-		$scope.test = 'hello';
-	}]);
-
-budgetAppControllers.controller('TableDetailCtrl', ['$scope', '$http', '$routeParams',
-	function($scope, $http, $routeParams) {
-		$http.get('api/tables/' + $routeParams.id).success(function(data) {
-			$scope.entries = data;
-			console.log('data', data);
-		});
-
-		$scope.isEditMode = false;
-		$scope.toggleAddForm = function() {
-			$scope.isEditMode = !$scope.isEditMode;
-		};
-		$scope.addEntry = function() {
-			console.log('added!');
-		};
-	}]);
-
 budgetAppControllers.controller('HomeCtrl', ['$scope',
 	function($scope) {
 		$scope.phones = [
@@ -68,3 +36,50 @@ budgetAppControllers.controller('HomeCtrl', ['$scope',
 
 		$scope.orderProp = 'age';
 	}]);
+
+// Show all tables created by this user
+budgetAppControllers.controller('TableListCtrl', ['$scope', '$http',
+	function ($scope, $http) {
+		/*
+		$http.get('api/tables').success(function(data) {
+			$scope.phones = data;
+		});
+		*/
+		//$scope.orderProp = 'age';
+		
+		$scope.data = {
+			foo: 'bar',
+			test: 'yes'
+		};
+		$scope.test = 'hello';
+	}]);
+
+// Show details of a single table
+budgetAppControllers.controller('TableDetailCtrl', ['$scope', '$http', '$routeParams',
+	function($scope, $http, $routeParams) {
+		var tableId = $routeParams.id;
+		console.log('tableId', tableId);
+		$http.get('api/tables/' + tableId).success(function(data) {
+			$scope.entries = data;
+			$scope.newEntry = {
+				tableId: tableId
+			};
+		});
+
+		$scope.isEditMode = false;
+		$scope.sortOrder = 'date';
+
+		$scope.toggleAddForm = function() {
+			$scope.isEditMode = !$scope.isEditMode;
+		};
+		$scope.addEntry = function(newEntry) {
+			$http.post('api/entries', newEntry).success(function(data) {
+				$scope.entries.push(newEntry);
+				$scope.newEntry = {
+					tableId: tableId
+				};
+			});
+
+		};
+	}]);
+
