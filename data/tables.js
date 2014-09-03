@@ -6,7 +6,7 @@ mongoose.connect('mongodb://localhost/budgetApp');
 
 var db = mongoose.connection;
 
-db.on('error', console.error.bind(console, 'Mongoose connection errorXXX:'));
+db.on('error', console.error.bind(console, 'Mongoose connection error:'));
 
 db.once('open', function() {
 	// yay!
@@ -32,13 +32,68 @@ db.once('open', function() {
 	var Entry = mongoose.model('Entry', entrySchema);
 
 	// List all available tables
-	exports.getTables = function() {
+	exports.getAllTables = function(req, res, cb) {
+		var data = null;
+		var total = 0;
 
+		try {
+			var opts = {
+				// TO DO: change this to SESSION.userId or whatever once login stuff is done
+				userId: new mongoose.Types.ObjectId("54037e5448f0ad998eef3c5e")
+			}
+		} catch(e) {
+			if ( cb ) {
+				return cb(req, res, data);
+			} else {
+				return data;
+			}
+		}
+
+		var query = Table.find(opts);
+		query.exec(function (err, docs) {
+			console.log( 'err: ' + err );
+			data = docs;
+			
+			// Call the callback fn if one was specified, otherwise just return the data
+			if ( cb ) {
+				return cb(req, res, data);
+			} else {
+				return data;
+			}
+
+		});
 	}
 
 	// Show one particular table by id
-	exports.getTable = function() {
+	exports.getTableById = function(req, res, cb) {
+		var data = null;
+		var total = 0;
 
+		try {
+			var opts = {
+				tableId: new mongoose.Types.ObjectId(req.params.id)
+			}
+		} catch(e) {
+			if ( cb ) {
+				return cb(req, res, data);
+			} else {
+				return data;
+			}
+		}
+
+		var query = Entry.find(opts);
+		query.exec(function (err, docs) {
+			console.log( 'err: ' + err );
+			data = docs;
+			
+			// Call the callback fn if one was specified, otherwise just return the data
+			if ( cb ) {
+				return cb(req, res, data);
+			} else {
+				return data;
+			}
+
+		});
 	}
 
 	// List all table rows that match the opts argument 
@@ -47,7 +102,7 @@ db.once('open', function() {
 		var data = null;
 		var total = 0;
 
-		if ( opts ) {
+		if ( !opts ) {
 			var opts = {
 				tableId: new mongoose.Types.ObjectId(req.params.id)
 			}
@@ -90,7 +145,7 @@ db.once('open', function() {
 		});
 	}
 
-	// Create an entry
+	// Create a new entry
 	exports.createTableEntry = function(entry, cb) {
 		console.log( 'entry: ', entry );
 		

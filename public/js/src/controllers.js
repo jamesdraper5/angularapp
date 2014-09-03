@@ -40,34 +40,44 @@ budgetAppControllers.controller('HomeCtrl', ['$scope',
 // Show all tables created by this user
 budgetAppControllers.controller('TableListCtrl', ['$scope', '$http',
 	function ($scope, $http) {
-		/*
-		$http.get('api/tables').success(function(data) {
-			$scope.phones = data;
-		});
-		*/
-		//$scope.orderProp = 'age';
 		
-		$scope.data = {
-			foo: 'bar',
-			test: 'yes'
-		};
-		$scope.test = 'hello';
+		$scope.pageStatus = 'loading';
+		
+		setTimeout(function(){
+			$http.get('api/tables')
+				.success(function(data, status) {
+					$scope.pageStatus = status;
+					$scope.tables = data;
+				})
+				.error(function(data, status) {
+					$scope.pageStatus = status;
+				});
+		},2000);
 	}]);
 
 // Show details of a single table
 budgetAppControllers.controller('TableDetailCtrl', ['$scope', '$http', '$routeParams',
 	function($scope, $http, $routeParams) {
 		var tableId = $routeParams.id;
-		console.log('tableId', tableId);
-		$http.get('api/tables/' + tableId).success(function(data) {
-			$scope.entries = data;
-			$scope.newEntry = {
-				tableId: tableId
-			};
-		});
+		$scope.pageStatus = 'loading';
+
+		setTimeout(function(){
+			$http.get('api/tables/' + tableId)
+				.success(function(data, status) {
+					$scope.pageStatus = status;
+					$scope.entries = data;
+					$scope.newEntry = {
+						tableId: tableId
+					};
+				})
+				.error(function(data, status) {
+					$scope.pageStatus = status;
+				});
+		},2000);
 
 		$scope.isEditMode = false;
 		$scope.sortOrder = 'date';
+		$scope.total = 0;
 
 		$scope.toggleAddForm = function() {
 			$scope.isEditMode = !$scope.isEditMode;
@@ -79,7 +89,19 @@ budgetAppControllers.controller('TableDetailCtrl', ['$scope', '$http', '$routePa
 					tableId: tableId
 				};
 			});
-
 		};
+		$scope.totalAmount = function() {
+			var total = 0;
+			angular.forEach($scope.entries, function(entry) {
+		       	total += parseInt(entry.amount, 10);
+		    });
+
+		    return total;
+		};
+		/*
+		*/
+
+		//$scope.$watch('{{firstName + ' ' + lastName', function(value) { $scope.fullName = value; });
+		
 	}]);
 

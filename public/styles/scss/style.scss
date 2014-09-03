@@ -1,5 +1,30 @@
 @import "includes/settings";
 
+
+@-webkit-keyframes throb {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+@-moz-keyframes throb {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+@-o-keyframes throb {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+@keyframes throb {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -80,43 +105,64 @@ input {
 	margin: 20px 50px;
 }
 
+.bg-loading {
+	text-align: center;
+	opacity: 0.5;
+}
+.img-loading {
+	margin: 0 auto;
+	opacity: 0.2;
+	-webkit-animation: throb 3s infinite; /* Safari 4+ */
+	-moz-animation:    throb 3s infinite; /* Fx 5+ */
+	-o-animation:      throb 3s infinite; /* Opera 12+ */
+	animation:         throb 3s infinite; /* IE 10+, Fx 29+ */
+}
+
 #data-table {
 	border-collapse: collapse;
 	box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
 	width: 800px;
 	thead {
 		border-bottom: 1px solid #ddd;
-		font-weight: 300;
-		td {
+		th {
+			font-weight: 300;
 			cursor: pointer;
+			padding: 3px 10px;
+			text-align: left;
 		}
 	}	
+}
+.entry-row:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+td {
+	padding: 2px 10px;
+}
+.add-entry-row {
+	border-top: 1px solid #ddd;
+	text-align: center;
+	td {
+		padding: 5px;
+	}
+	a {
+		color: #999;
+		text-decoration: underline;
+	}
+}
+.entry-form-row {
+	border-top: 1px solid #ddd;
+	text-align: center;
 	td {
 		padding: 2px 10px;
 	}
-	.add-entry-row {
-		border-top: 1px solid #ddd;
-		text-align: center;
-		td {
-			padding: 5px;
-		}
-		a {
-			color: #999;
-			text-decoration: underline;
-		}
+	a {
+		color: #999;
+		text-decoration: underline;
 	}
-	.entry-form-row {
-		border-top: 1px solid #ddd;
-		text-align: center;
-		td {
-			padding: 2px 10px;
-		}
-		a {
-			color: #999;
-			text-decoration: underline;
-		}
-		input {
-			width: 100%;
-		}
+	input {
+		width: 100%;
 	}
+}
+.totals-row {
+	//border-top: 1px solid #ddd;
 }

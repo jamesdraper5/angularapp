@@ -7,14 +7,29 @@ exports.tables = {
 	self: this,
 	getAllTables: function(req, res) {
 	  	var opts = {};
-	  	var tableData = tableEngine.getTableEntries(req, res, opts, function(req, res, docs){
-	  		res.json(docs);
+	  	var tableData = tableEngine.getAllTables(req, res, function(req, res, docs){
+	  		// Internal error, probably passed incorrect hex value for table id
+	  		if ( docs === null ) {
+	  			res.status(404).json({
+	  				status: 'error',
+	  				message: 'Not Found'
+	  			})
+	  		} else {
+	  			res.json(docs);
+	  		}
 	  	});
 	},
 	getTableById: function(req, res) {
-		console.log('getTableById - req', req.params);
-		var tableData = tableEngine.getTableEntries(req, res, null, function(req, res, docs){
-	  		res.json(docs);
+		var tableData = tableEngine.getTableById(req, res, function(req, res, docs){
+	  		// Internal error, probably passed incorrect hex value for table id
+	  		if ( docs === null ) {
+	  			res.status(404).json({
+	  				status: 'error',
+	  				message: 'Not Found'
+	  			})
+	  		} else {
+	  			res.json(docs);
+	  		}
 	  	});
 	},
 	createEntry: function(req, res) {
