@@ -7,6 +7,7 @@ p This is the table page
 form#add-entry(ng-if='pageStatus == 200', ng-submit='addEntry(newEntry)')
 	table#data-table
 		thead
+			th
 			th(ng-click="sortOrder='date'; reverse=!reverse") Date
 			th(ng-click="sortOrder='category'; reverse=!reverse") Category
 			th(ng-click="sortOrder='desc'; reverse=!reverse") Description
@@ -14,6 +15,7 @@ form#add-entry(ng-if='pageStatus == 200', ng-submit='addEntry(newEntry)')
 			th(ng-click="sortOrder='amount'; reverse=!reverse") Amount			
 		tbody
 			tr(class='entry-row', ng-repeat='entry in entries | orderBy:sortOrder:reverse')
+				td(style='border-right: 1px solid #ddd;padding:2px;text-align:center;') {{$index+1}}
 				td {{entry.date | date: 'dd/MM/yyyy'}}
 				td {{entry.category}}
 				td {{entry.desc}}
@@ -23,6 +25,7 @@ form#add-entry(ng-if='pageStatus == 200', ng-submit='addEntry(newEntry)')
 				td(colspan='5')
 					a(href='', ng-click='toggleAddForm()') Click to add
 			tr.entry-form-row(ng-show='isEditMode')
+				td
 				td
 					input(type='date', class='input-transparent', ng-model='newEntry.date')
 				td
@@ -35,6 +38,7 @@ form#add-entry(ng-if='pageStatus == 200', ng-submit='addEntry(newEntry)')
 					input(type='text', class='input-transparent', ng-model='newEntry.amount')
 					input(type='submit', class='hidden')
 			tr.totals-row
+				td
 				td
 				td
 				td

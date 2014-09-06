@@ -66,8 +66,7 @@ db.once('open', function() {
 
 	// Show one particular table by id
 	exports.getTableById = function(req, res, cb) {
-		var data = null;
-		var total = 0;
+		var tableObj = {};
 
 		try {
 			var opts = {
@@ -81,19 +80,32 @@ db.once('open', function() {
 			}
 		}
 
-		var query = Entry.find(opts);
-		query.exec(function (err, docs) {
+		var getTable = Table.findById(req.params.id);
+		var getEntries = Entry.find(opts);
+		
+		getTable.exec(function (err, result) {
 			console.log( 'err: ' + err );
-			data = docs;
+			tableObj.name = result.name;
+			tableObj.desc = result.desc;
 			
-			// Call the callback fn if one was specified, otherwise just return the data
-			if ( cb ) {
-				return cb(req, res, data);
-			} else {
-				return data;
-			}
-
+			getEntries.exec(function (err, docs) {
+				console.log( 'err: ' + err );
+				tableObj.entries = docs;
+				
+				// Call the callback fn if one was specified, otherwise just return the data
+				if ( cb ) {
+					return cb(req, res, data);
+				} else {
+					return data;
+				}
+			});
 		});
+
+		
+		
+
+
+
 	}
 
 	// List all table rows that match the opts argument 

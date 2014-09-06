@@ -52,7 +52,7 @@ budgetAppControllers.controller('TableListCtrl', ['$scope', '$http',
 				.error(function(data, status) {
 					$scope.pageStatus = status;
 				});
-		},2000);
+		},20);
 	}]);
 
 // Show details of a single table
@@ -73,7 +73,7 @@ budgetAppControllers.controller('TableDetailCtrl', ['$scope', '$http', '$routePa
 				.error(function(data, status) {
 					$scope.pageStatus = status;
 				});
-		},2000);
+		},500);
 
 		$scope.isEditMode = false;
 		$scope.sortOrder = 'date';

@@ -24,7 +24,9 @@
 
 
 
-
+/*********************************************
+ BASE TAGS
+ ********************************************/
 * {
 	margin: 0;
 	padding: 0;
@@ -48,16 +50,25 @@ h1,h2,h3,h4,h5 {
 p {
 	margin-bottom: 14px;
 }
+a {
+	color: $secondaryColor;
+}
+input {
+	font-size: 16px;
+	font-weight: 200;
+	font-family: 'source-sans-pro','lato',Arial,sans-serif;
+}
+
+/*********************************************
+ UTILITY
+ ********************************************/
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
-
-input {
-	font-size: 16px;
-	font-weight: 200;
-	font-family: 'source-sans-pro','lato',Arial,sans-serif;
+.hidden {
+	display: none;
 }
 .input-transparent {
 	border: 0 none;
@@ -65,11 +76,18 @@ input {
 		outline: none;
 	}
 }
-
-.hidden {
-	display: none;
+ul.unstyled {
+	list-style: none;
 }
-
+.strong {
+	font-weight: 300;
+}
+a.plain {
+	text-decoration: none;
+}
+/*********************************************
+ COMMON
+ ********************************************/
 #main-nav { 
 	border-top: 4px solid $primaryColor;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
@@ -118,6 +136,15 @@ input {
 	animation:         throb 3s infinite; /* IE 10+, Fx 29+ */
 }
 
+/*********************************************
+ TABLES
+ ********************************************/
+
+
+
+/*********************************************
+ TABLE
+ ********************************************/
 #data-table {
 	border-collapse: collapse;
 	box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
