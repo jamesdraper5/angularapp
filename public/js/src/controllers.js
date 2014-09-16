@@ -65,7 +65,9 @@ budgetAppControllers.controller('TableDetailCtrl', ['$scope', '$http', '$routePa
 			$http.get('api/tables/' + tableId)
 				.success(function(data, status) {
 					$scope.pageStatus = status;
-					$scope.entries = data;
+					$scope.title = data.name;
+					$scope.desc = data.desc;
+					$scope.entries = data.entries;
 					$scope.newEntry = {
 						tableId: tableId
 					};

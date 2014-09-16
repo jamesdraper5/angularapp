@@ -1,13 +1,20 @@
-h1 Listing Page
-
-p This is the listing page
+h1 Your tables
 
 ul(ng-if='pageStatus == 200', class='unstyled')
-	li(ng-repeat='table in tables')
-		a(href='tables/{{table._id}}', class='plain')
-			h3(class='strong') {{table.name}}
-		p {{table.desc}}
-
+	li(ng-repeat='table in tables', class='group')
+		div.details-area
+			a(href='tables/{{table._id}}', class='plain')
+				h3(class='strong inline') {{table.name}}
+			p {{table.desc}}
+		div.edit-area
+			a(class='plain-link icon-link color-2-text' href='')
+				i.icon-pencil 
+			a(class='plain-link icon-link color-2-text' href='')
+				i.icon-trash
+			a(class='plain-link icon-link color-2-text' href='')
+				i.icon-statistics
+			a(class='plain-link icon-link color-2-text' href='')
+				i.icon-star2
 
 // Not found
 div(ng-if='pageStatus == 404')

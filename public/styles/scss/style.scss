@@ -1,28 +1,6 @@
 @import "includes/settings";
-
-
-@-webkit-keyframes throb {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-@-moz-keyframes throb {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-@-o-keyframes throb {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-@keyframes throb {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-
-
+@import "includes/animations";
+@import "includes/icons";
 
 /*********************************************
  BASE TAGS
@@ -46,9 +24,10 @@ body {
 h1,h2,h3,h4,h5 {
 	font-weight: 100;
 	font-family: 'source-sans-pro','lato',Arial,sans-serif;
+	margin: 20px 0;
 }
 p {
-	margin-bottom: 14px;
+	margin-bottom: 1em;
 }
 a {
 	color: $secondaryColor;
@@ -84,6 +63,15 @@ ul.unstyled {
 }
 a.plain {
 	text-decoration: none;
+}
+.inline {
+	display: inline;
+}
+.color-2-text {
+	color: $secondaryColor;
+}
+.color-2 {
+	background-color: $secondaryColor;
 }
 /*********************************************
  COMMON
@@ -135,11 +123,27 @@ a.plain {
 	-o-animation:      throb 3s infinite; /* Opera 12+ */
 	animation:         throb 3s infinite; /* IE 10+, Fx 29+ */
 }
-
+a.plain-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+a.icon-link {
+	display: inline-block;
+	margin: 0 5px;
+}
 /*********************************************
  TABLES
  ********************************************/
-
+.details-area {
+	display: inline-block;
+	float: left;
+}
+.edit-area {
+	display: inline-block;
+	float: right;
+}
 
 
 /*********************************************

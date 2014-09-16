@@ -73,11 +73,12 @@ db.once('open', function() {
 				tableId: new mongoose.Types.ObjectId(req.params.id)
 			}
 		} catch(e) {
-			if ( cb ) {
+			/*if ( cb ) {
 				return cb(req, res, data);
 			} else {
 				return data;
-			}
+			}*/
+			console.log('e', e);
 		}
 
 		var getTable = Table.findById(req.params.id);
@@ -94,9 +95,9 @@ db.once('open', function() {
 				
 				// Call the callback fn if one was specified, otherwise just return the data
 				if ( cb ) {
-					return cb(req, res, data);
+					return cb(req, res, tableObj);
 				} else {
-					return data;
+					return tableObj;
 				}
 			});
 		});
