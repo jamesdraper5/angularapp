@@ -67,11 +67,44 @@ a.plain {
 .inline {
 	display: inline;
 }
+.inline-block {
+	display: inline-block;
+}
 .color-2-text {
 	color: $secondaryColor;
 }
 .color-2 {
 	background-color: $secondaryColor;
+}
+a.plain-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+a.icon-link {
+	display: inline-block;
+	margin: 0 5px;
+}
+ul.divided {
+	border-top: 1px solid #ccc;
+	li {
+		border-bottom: 1px solid #ccc;
+		padding: 10px 0;
+	}
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.btn {
+	background: $primaryColor;
+	text-decoration: none;
+	color: white;
+	padding: 4px 10px;
+	border-radius: 4px;
 }
 /*********************************************
  COMMON
@@ -123,16 +156,7 @@ a.plain {
 	-o-animation:      throb 3s infinite; /* Opera 12+ */
 	animation:         throb 3s infinite; /* IE 10+, Fx 29+ */
 }
-a.plain-link {
-	text-decoration: none;
-	&:hover {
-		text-decoration: none;
-	}
-}
-a.icon-link {
-	display: inline-block;
-	margin: 0 5px;
-}
+
 /*********************************************
  TABLES
  ********************************************/

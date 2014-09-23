@@ -1,19 +1,20 @@
-h1 Your tables
+h1.inline-block Your tables
+a(href='',class='btn pull-right',ng-click='createTable()') Create table
 
-ul(ng-if='pageStatus == 200', class='unstyled')
+ul(ng-if='pageStatus == 200', class='unstyled divided')
 	li(ng-repeat='table in tables', class='group')
 		div.details-area
 			a(href='tables/{{table._id}}', class='plain')
 				h3(class='strong inline') {{table.name}}
 			p {{table.desc}}
 		div.edit-area
-			a(class='plain-link icon-link color-2-text' href='')
+			a(class='plain-link icon-link color-2-text' href='', ng-click='editTable()')
 				i.icon-pencil 
-			a(class='plain-link icon-link color-2-text' href='')
+			a(class='plain-link icon-link color-2-text' href='', ng-click='deleteTable()')
 				i.icon-trash
-			a(class='plain-link icon-link color-2-text' href='')
+			a(class='plain-link icon-link color-2-text' href='', ng-click='showChart()')
 				i.icon-statistics
-			a(class='plain-link icon-link color-2-text' href='')
+			a(class='plain-link icon-link color-2-text' href='', ng-click='toggleFavourite()')
 				i.icon-star2
 
 // Not found

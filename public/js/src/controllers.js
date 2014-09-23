@@ -43,7 +43,8 @@ budgetAppControllers.controller('TableListCtrl', ['$scope', '$http',
 		
 		$scope.pageStatus = 'loading';
 		
-		setTimeout(function(){
+			
+		function getTables() {
 			$http.get('api/tables')
 				.success(function(data, status) {
 					$scope.pageStatus = status;
@@ -52,7 +53,30 @@ budgetAppControllers.controller('TableListCtrl', ['$scope', '$http',
 				.error(function(data, status) {
 					$scope.pageStatus = status;
 				});
+		}
+
+		$scope.createTable = function() {
+			alert('create');
+		};
+
+		$scope.editTable = function() {
+			alert('editTable');
+		};
+		$scope.deleteTable = function() {
+			alert('deleteTable');
+		};
+		$scope.toggleFavourite = function() {
+			alert('toggleFavourite');
+		};
+
+		$scope.showChart = function() {
+			alert('showChart');
+		};
+		
+		setTimeout(function(){
+			getTables();
 		},20);
+
 	}]);
 
 // Show details of a single table
