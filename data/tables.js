@@ -1,3 +1,7 @@
+/*****************************************************************************************************************************************
+ This file does all the queries to the DB for anything table related.
+ *****************************************************************************************************************************************/
+
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var ObjectId = Schema.Types.ObjectId;
